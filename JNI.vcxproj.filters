@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\Client\Minecraft\Minecraft.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Java\lang\Object\Object.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Negasth\Negasth.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Negasth\Modules\Modules.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Negasth\CTimer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Negasth\Modules\AutoClick.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Negasth\Modules\FastPlace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Negasth\Cache\Cache.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Negasth\JavaClass\JavaClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\Client\Gui\GuiScreen\GuiScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\util\MovingObjectPosition\MovingObjectPosition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\util\MovingObjectPosition\MovingObjectType\MovingObjectType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\entity\Entity\Entity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\entity\EntityLivingBase\EntityLivingBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\entity\Player\EntityPlayer\EntityPlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Negasth\Maths\Maths.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\Client\Entity\AbstractClientPlayer\AbstractClientPlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\Client\Entity\EntityPlayerSP\EntityPlayerSP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Negasth\Modules\AimAssist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Java\util\Collection\Collection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Java\util\List\List.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\Client\multiplayer\worldclient\WorldClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\World\World.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\util\AxisAlignedBB\AxisAlignedBB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\util\Timer\Timer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\Client\Renderer\Entity\RenderManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\Client\Renderer\Entity\RenderLivingEntity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\Client\Renderer\Entity\RenderPlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\Client\Renderer\GlStateManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\MinHook\buffer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\MinHook\hook.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\MinHook\trampoline.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\MinHook\hde\hde32.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\MinHook\hde\hde64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\Client\Renderer\ActiveRenderInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\scoreboard\Scoreboard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\scoreboard\Team.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\scoreboard\ScorePlayerTeam.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\Client\Renderer\Entity\Render.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Negasth\Modules\NameTag.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\network\Packet\Packet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\network\play\client\C03PacketPlayer\C03PacketPlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\Client\network\NetHandlerPlayClient\NetHandlerPlayClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\item\Item\Item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\item\ItemSword\ItemSword.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\item\ItemBow\ItemBow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\item\ItemStack\ItemStack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\network\play\client\C03PacketPlayer\C05PacketPlayerLook\C05PacketPlayerLook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\network\play\client\C03PacketPlayer\C06PacketPlayerPosLook\C06PacketPlayerPosLook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\network\play\C02PacketUseEntity\C02PacketUseEntity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\network\play\client\C03PacketPlayer\C04PacketPlayerPosition\C04PacketPlayerPosition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Negasth\Modules\Killaura.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Negasth\Modules\Refill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\entity\Player\InventoryPlayer\InventoryPlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\network\play\client\C16PacketClientStatus\C16PacketClientStatus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\Client\multiplayer\playercontrollerMP\playercontrollerMP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\network\play\client\C0DPacketCloseWindow\C0DPacketCloseWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Negasth\Modules\HitBoxes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Negasth\Modules\CheckPackets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\item\ItemBlock\ItemBlock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Negasth\Modules\FastBreak.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\Client\Gui\Inventory\GuiInventory\GuiInventory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Negasth\Modules\AutoArmor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\item\ItemArmor\ItemArmor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Minecraft\Inventory\Container\Container.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\JNI\classfile_constants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\JNI\jawt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\JNI\jawt_md.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\JNI\jdwpTransport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\JNI\jni.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\JNI\jni_md.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\JNI\jvmti.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\JNI\jvmticmlr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\Client\Minecraft\Minecraft.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Java\lang\Object\Object.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Negasth\Negasth.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Negasth\Modules\Modules.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Negasth\Cache\Cache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Negasth\JavaClass\JavaClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\Client\Gui\GuiScreen\GuiScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\util\MovingObjectPosition\MovingObjectPosition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\util\MovingObjectPosition\MovingObjectType\MovingObjectType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\entity\Entity\Entity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\entity\EntityLivingBase\EntityLivingBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\entity\Player\EntityPlayer\EntityPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Negasth\Maths\Maths.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\Client\Entity\AbstractClientPlayer\AbstractClientPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\Client\Entity\EntityPlayerSP\EntityPlayerSP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Java\util\Collection\Collection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Java\util\List\List.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\Client\multiplayer\worldclient\WorldClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\World\world.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\util\AxisAlignedBB\AxisAlignedBB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\util\Timer\Timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\Client\Renderer\Entity\RenderManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\Client\Renderer\Entity\RenderLivingEntity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\Client\Renderer\Entity\RenderPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\Client\Renderer\GlStateManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\MinHook\buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\MinHook\MinHook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\MinHook\trampoline.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\MinHook\hde\hde32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\MinHook\hde\hde64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\MinHook\hde\pstdint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\MinHook\hde\table32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\MinHook\hde\table64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Negasth\Hook\glHook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\Client\Renderer\ActiveRenderInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\scoreboard\Scoreboard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\scoreboard\Team.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\scoreboard\ScorePlayerTeam.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\Client\Renderer\Entity\Render.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\network\Packet\Packet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\network\play\client\C03PacketPlayer\C03PacketPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\Client\network\NetHandlerPlayClient\NetHandlerPlayClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\item\Item\Item.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\item\ItemSword\ItemSword.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\item\ItemBow\ItemBow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\item\ItemStack\ItemStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\network\play\client\C03PacketPlayer\C05PacketPlayerLook\C05PacketPlayerLook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\network\play\client\C03PacketPlayer\C06PacketPlayerPosLook\C06PacketPlayerPosLook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\network\play\C02PacketUseEntity\C02PacketUseEntity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\network\play\client\C03PacketPlayer\C04PacketPlayerPosition\C04PacketPlayerPosition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\entity\Player\InventoryPlayer\InventoryPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\network\play\client\C16PacketClientStatus\C16PacketClientStatus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\Client\multiplayer\playercontrollerMP\playercontrollerMP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\network\play\client\C0DPacketCloseWindow\C0DPacketCloseWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\item\ItemBlock\ItemBlock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\Client\Gui\Inventory\GuiInventory\GuiInventory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\item\ItemArmor\ItemArmor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Minecraft\Inventory\Container\Container.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\json.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Negasth\Mappings\mappings_major_1_8_9.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Negasth\Mappings\mappings_major_1_18.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libs\jvm.lib" />
+  </ItemGroup>
+</Project>

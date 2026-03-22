@@ -1,4 +1,5 @@
 #include "NetHandlerPlayClient.h"
+<<<<<<< HEAD
 #include "../Negasth/Modules/Modules.h"
 
 bool NetHandlerPlayClient::addToSendQueue(const Packet& packet, JNIEnv* otherEnv)
@@ -13,4 +14,12 @@ bool NetHandlerPlayClient::addToSendQueue(const Packet& packet, JNIEnv* otherEnv
 
 	otherEnv->CallVoidMethod(instance, NetHandlerPlayClientClass.getMethodID("addToSendQueue"), packet.getInstance());
 	return true;
+=======
+
+void NetHandlerPlayClient::addToSendQueue(const Packet& packet, JNIEnv* otherEnv)
+{
+	if (!instance)
+		return;
+	otherEnv->CallVoidMethod(instance, otherEnv->GetMethodID(NetHandlerPlayClientClass.getJclass(otherEnv), "func_147297_a","(Lnet/minecraft/network/Packet;)V"), packet.getInstance());
+>>>>>>> 25b80edf9ffd5686f0a11402a7139f3c9973eb87
 }
